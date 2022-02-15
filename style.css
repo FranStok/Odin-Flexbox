@@ -6,7 +6,7 @@ body{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 140px;
     color: #E5E7EB;
     font-size: 18px;
     padding: 30px 250px 190px 250px;
@@ -41,6 +41,19 @@ img{
     flex: 1;
 }
 .Main{
+    margin: 0;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
+}
+.SubText{
+    color: #E5E7EB;
+    font-weight: 500;
+}
+button{
+    color:white;
+    background-color: #3382f6;
+    border-radius: 10px;
+    padding: 10px 35px;
+    font-size: 20px;
+    border-style: none;
 }
