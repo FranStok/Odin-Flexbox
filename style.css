@@ -2,3 +2,45 @@ body{
     display: flex;
     flex-direction: column;
 }
+.Header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 30px 250px 190px 250px;
+}
+.Menu{
+    display: flex;
+}
+h1{
+    margin-right: auto;
+    font-size: 24px;
+    color:#F9FAF8;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+a{
+    font-style: none;
+}
+.Introduction{
+    display: flex;
+    gap: 30px;
+}
+img{
+    flex: 1;
+    border-radius: 10px;
+    border: 2px solid white
+}
+.Registro{
+    flex: 1;
+}
+.Main{
+    font-size: 48px;
+    font-weight: bold;
+}
