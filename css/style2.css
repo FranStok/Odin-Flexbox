@@ -32,12 +32,52 @@
     align-items: center;
     padding: 100px 300px;
 }
+.FullQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+}
 .Quote{
     font-style: italic;
     font-size: 36px;
     color:#1f2937;
     text-align: center;
+    margin-bottom: 0px;
 }
 .Author{
     align-self: flex-end;
+    font-size: 21px;
+    font-weight: 900;
+}
+.content3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 75px;
+}
+.Bluebox{
+    border-radius: 10px;
+    background-color: #3382f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 25px 80px;
+    color: #E5E7EB;
+}
+.Text > p{
+    font-size: 17px;
+}
+.Bluebox > button{
+    border: solid #E5E7EB;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    color: #E5E7EB;
+    padding: 10px;
 }
